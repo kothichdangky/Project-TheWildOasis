@@ -58,9 +58,9 @@ the-wild-oasis-wedsite
  npm install
  ### B3: Biến môi trường
 ### trong folder the-wild-oasis
-Tới folder src/services, bên trong có supabase.js, có 2 cột key cần chèn vào 
-export const supabaseUrl = ""
-export const supabaseKey = ""
+Tới folder src/services, bên trong có supabase.js, có 2 cột key cần chèn vào <br>
+export const supabaseUrl = ""<br>
+export const supabaseKey = ""<br>
 
 ### trong folder the-wild-oasis-wedsite
 Tạo file `.env.local` ở ngoài cùng.
@@ -73,7 +73,7 @@ Yêu cầu các key:<br>
  . NEXT_PUBLIC_SUPABASE_ANON_KEY:<br>
 
  ### B4: 
-npm run dev
+npm run dev<br>
 Truy cập http://localhost:3000 để sử dụng ứng dụng.
 
 ## 6. Cấu trúc database
@@ -121,6 +121,6 @@ public/<br>
 
 ## 8. Nguồn gốc và phát triển
 
-Original Design & Course: Jonas Schmedtmann
-Developed by: Dương Thắng trong quá trình học tập
+Original Design & Course: Jonas Schmedtmann<br>
+Developed by: Dương Thắng trong quá trình học tập<br>
 GitHub: kothichdangky<br>
