@@ -1,0 +1,69 @@
+/* eslint-disable react/prop-types */
+import styled, { css } from "styled-components";
+import { useSeSearchParams } from "../hooks/useSearchParams";
+// import { useSearchParams } from "react-router-dom";
+
+const StyledFilter = styled.div`
+  border: 1px solid var(--color-grey-100);
+  background-color: var(--color-grey-0);
+  box-shadow: var(--shadow-sm);
+  border-radius: var(--border-radius-sm);
+  padding: 0.4rem;
+  display: flex;
+  gap: 0.4rem;
+`;
+
+const FilterButton = styled.button`
+  background-color: var(--color-grey-0);
+  border: none;
+
+  ${({ $active }) =>
+    $active &&
+    css`
+      background-color: var(--color-brand-600);
+      color: var(--color-brand-50);
+    `}
+
+  border-radius: var(--border-radius-sm);
+  font-weight: 500;
+  font-size: 1.4rem;
+  /* To give the same height as select */
+  padding: 0.44rem 0.8rem;
+  transition: all 0.3s;
+
+  &:hover:not(:disabled) {
+    background-color: var(--color-brand-600);
+    color: var(--color-brand-50);
+  }
+`;
+
+function Filter({ filterField, options }) {
+  // const [searchParams, setSearchParams] = useSearchParams();
+  // const filterValue = searchParams.get(filterField) || options.at(0).value;
+
+  // function handleClick(value) {
+  //   searchParams.set(filterField, value);
+  //   setSearchParams(searchParams);
+  // }
+
+  const {names,handleChange} = useSeSearchParams(filterField,options )
+
+  return (
+    <StyledFilter>
+      {options.map((options) => (
+        <FilterButton
+          key={options.value}
+          onClick={() => handleChange(options.value)}
+          $active={options.value === names}
+        >
+          {options.label}
+        </FilterButton>
+      ))}
+      {/* <FilterButton onClick={()=>handleClick("all")}>All</FilterButton>
+      <FilterButton onClick={()=>handleClick("no-discount")}>No Discount</FilterButton>
+      <FilterButton onClick={()=>handleClick("with-discount")}>With Discount</FilterButton> */}
+    </StyledFilter>
+  );
+}
+
+export default Filter;
