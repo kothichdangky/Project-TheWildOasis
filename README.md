@@ -8,14 +8,14 @@ The Wild Oasis có 2 folder là 1 dựa án dùng để quản lý phòng và c�
 ## 2. Hình ảnh giao diện
 
 ## 3. Chức năng
-the-wild-oasis
+the-wild-oasis<br>
  .Là giao diện dành cho chủ sở hữu wed(admin), để quản lý các giao dịch <br>
  .Có thể tạo thêm các căn phòng mới, điều chỉnh thông số các phòng cũ <br>
  .Có sử dụng biểu để để theo dõi số lượng phòng được đặt trước trong tuần hoặc tháng <br>
  .Theo dõi và quan sát các giao dịch xem đã thanh toán hay chưa <br>
  .Theo dõi được chi tiết từng các phòng đã được đặt trước <br>
 
-the-wild-oasis-wedsite
+the-wild-oasis-wedsite<br>
  .Là giao diện dành cho các khách hàng muốn tới đặt phòng <br>
  .Hệ thống đăng nhập bằng google <br>
  .Đặt những căn phòng dễ dàng bằng lịch được tạo sẵn <br>
@@ -23,7 +23,7 @@ the-wild-oasis-wedsite
  .Điều chỉnh thông tin profile của bản thân
 
 ## 4. Công nghệ sử dụng
-the-wild-oasis
+the-wild-oasis<br>
  . React<br>
  . React-query<br>
  . React-router<br>
@@ -38,7 +38,7 @@ the-wild-oasis
  . Supabase (PostgreSQL)<br>
  . Authentical bằng Supabase<br>
 
-the-wild-oasis-wedsite
+the-wild-oasis-wedsite<br>
  . Next.js<br>
  . React<br>
  . Heroicons/react<br>
@@ -91,18 +91,18 @@ src/<br>
 ├── context/<br>
 ├── data/<br>
 ├── features/<br>
-    ├── authentication/<br>
-    ├── bookings/<br>
-    ├── cabins/<br>
-    ├── check-in-out/<br>
-    ├── dashboard/<br>
-    ├── settings/<br>
+│   ├── authentication/<br>
+│   ├── bookings/<br>
+│   ├── cabins/<br>
+│   ├── check-in-out/<br>
+│   ├── dashboard/<br>
+│   └──  settings/<br>
 ├── hooks/<br>
 ├── pages/<br>
 ├── services/<br>
 ├── styles/<br>
 ├── ui/<br>
-├── utils/<br>
+└── utils/<br>
 public/<br>
 
 cấu trúc the-wild-oasis-wedsite<br>
