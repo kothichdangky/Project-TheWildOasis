@@ -74,7 +74,7 @@ Yêu cầu các key:<br>
 
  ### B4: 
 npm run dev<br>
-Truy cập http://localhost:5173 để sử dụng ứng dụng the-wild-oasis.
+Truy cập http://localhost:5173 để sử dụng ứng dụng the-wild-oasis.<br>
 Truy cập http://localhost:3000 để sử dụng ứng dụng the-wild-oasis-wedsite.
 
 ## 6. Cấu trúc database
