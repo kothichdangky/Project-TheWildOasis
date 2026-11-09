@@ -7,11 +7,43 @@ The Wild Oasis có 2 folder là 1 dựa án dùng để quản lý phòng và c�
 
 ## 2. Hình ảnh giao diện
 
+### The-wild-oasis
+
+#### Login
+<img src="./img/the-wild-oasis/logIn.PNG" width="700" />
+
+#### Trang dashborad
+<img src="./img/the-wild-oasis/dasborad1.PNG" width="700" />
+<img src="./img/the-wild-oasis/dashborad2.PNG" width="700" />
+
+#### DarkScreen
+<img src="./img/the-wild-oasis/DarkScreen.PNG" width="700" />
+
+#### Bookings
+<img src="./img/the-wild-oasis/Bookings1.PNG" width="700" />
+<img src="./img/the-wild-oasis/Bookings2.PNG" width="700" />
+
+#### Cabins
+<img src="./img/the-wild-oasis/cabins1.PNG" width="700" />
+<img src="./img/the-wild-oasis/cabins2.PNG" width="700" />
+
+#### Account
+<img src="./img/the-wild-oasis/Account.PNG" width="700" />
+
+#### User
+<img src="./img/the-wild-oasis/createNewUser.PNG" width="700" />
+
+#### Setting
+<img src="./img/the-wild-oasis/Settings.PNG" width="700" />
+
+
+
+
 ## 3. Chức năng
 the-wild-oasis<br>
  .Là giao diện dành cho chủ sở hữu wed(admin), để quản lý các giao dịch <br>
  .Có thể tạo thêm các căn phòng mới, điều chỉnh thông số các phòng cũ <br>
- .Có sử dụng biểu để để theo dõi số lượng phòng được đặt trước trong tuần hoặc tháng <br>
+ .Có sử dụng biểu đồ để để theo dõi số lượng phòng được đặt trước trong tuần hoặc tháng <br>
  .Theo dõi và quan sát các giao dịch xem đã thanh toán hay chưa <br>
  .Theo dõi được chi tiết từng các phòng đã được đặt trước <br>
 
