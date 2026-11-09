@@ -7,7 +7,7 @@ The Wild Oasis có 2 folder là 1 dựa án dùng để quản lý phòng và c�
 
 ## 2. Hình ảnh giao diện
 
-### The-wild-oasis
+### Trang the-wild-oasis
 
 #### Login
 <img src="./img/the-wild-oasis/logIn.PNG" width="700" />
@@ -36,7 +36,35 @@ The Wild Oasis có 2 folder là 1 dựa án dùng để quản lý phòng và c�
 #### Setting
 <img src="./img/the-wild-oasis/Settings.PNG" width="700" />
 
+### Trang the-wild-oasis-wedsite
 
+#### Trang home
+<img src="./img/the-wild-oasis-wedsite/home.PNG" width="700" />
+
+#### Login
+<img src="./img/the-wild-oasis-wedsite/login.PNG" width="700" />
+
+#### Cabins
+<img src="./img/the-wild-oasis-wedsite/cabins.PNG" width="700" />
+
+#### Booking cabin
+<img src="./img/the-wild-oasis-wedsite/cabinsDetail.PNG" width="700" />
+<img src="./img/the-wild-oasis-wedsite/cabinsDetail2.PNG" width="700" />
+
+#### About
+<img src="./img/the-wild-oasis-wedsite/about.PNG" width="700" />
+
+#### Account
+<img src="./img/the-wild-oasis-wedsite/account.PNG" width="700" />
+
+#### Reservations
+<img src="./img/the-wild-oasis-wedsite/reservations.PNG" width="700" />
+
+#### Reservations edit
+<img src="./img/the-wild-oasis-wedsite/reservationsEdit.PNG" width="700" />
+
+#### Update profile
+<img src="./img/the-wild-oasis-wedsite/updateProfile.PNG" width="700" />
 
 
 ## 3. Chức năng
